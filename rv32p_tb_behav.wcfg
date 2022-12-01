@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="rv32p_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="rv32p_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="335.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="493.501 ns"></ZoomEndTime>
+      <Cursor1Time time="120.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="131"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="130" />
+   <wvobject fp_name="/rv32p_tb/put1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/IR" type="array">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/pcPlus4" type="array">
+      <obj_property name="ElementShortName">pcPlus4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcPlus4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/nextPc" type="array">
+      <obj_property name="ElementShortName">nextPc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nextPc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/realEnable" type="logic">
+      <obj_property name="ElementShortName">realEnable</obj_property>
+      <obj_property name="ObjectShortName">realEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/realRst" type="logic">
+      <obj_property name="ElementShortName">realRst</obj_property>
+      <obj_property name="ObjectShortName">realRst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/IF_ID_PC" type="array">
+      <obj_property name="ElementShortName">IF_ID_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/IF_ID_pcPlus4" type="array">
+      <obj_property name="ElementShortName">IF_ID_pcPlus4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_pcPlus4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/IF_ID_IR" type="array">
+      <obj_property name="ElementShortName">IF_ID_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/readData1" type="array">
+      <obj_property name="ElementShortName">readData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/readData2" type="array">
+      <obj_property name="ElementShortName">readData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/imm" type="array">
+      <obj_property name="ElementShortName">imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/readReg1" type="array">
+      <obj_property name="ElementShortName">readReg1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readReg1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/readReg2" type="array">
+      <obj_property name="ElementShortName">readReg2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readReg2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/writeReg" type="array">
+      <obj_property name="ElementShortName">writeReg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writeReg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/jal" type="logic">
+      <obj_property name="ElementShortName">jal</obj_property>
+      <obj_property name="ObjectShortName">jal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/memRead" type="logic">
+      <obj_property name="ElementShortName">memRead</obj_property>
+      <obj_property name="ObjectShortName">memRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/memWrite" type="logic">
+      <obj_property name="ElementShortName">memWrite</obj_property>
+      <obj_property name="ObjectShortName">memWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUSrc1" type="logic">
+      <obj_property name="ElementShortName">ALUSrc1</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUSrc2" type="logic">
+      <obj_property name="ElementShortName">ALUSrc2</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/regWrite" type="logic">
+      <obj_property name="ElementShortName">regWrite</obj_property>
+      <obj_property name="ObjectShortName">regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/pcEnable" type="logic">
+      <obj_property name="ElementShortName">pcEnable</obj_property>
+      <obj_property name="ObjectShortName">pcEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/pcRst" type="logic">
+      <obj_property name="ElementShortName">pcRst</obj_property>
+      <obj_property name="ObjectShortName">pcRst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/whatToReg" type="array">
+      <obj_property name="ElementShortName">whatToReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">whatToReg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/pcSig" type="array">
+      <obj_property name="ElementShortName">pcSig[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pcSig[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUOP" type="array">
+      <obj_property name="ElementShortName">ALUOP[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOP[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_PC" type="array">
+      <obj_property name="ElementShortName">ID_EX_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_pcPlus4" type="array">
+      <obj_property name="ElementShortName">ID_EX_pcPlus4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_pcPlus4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_RegR1" type="array">
+      <obj_property name="ElementShortName">ID_EX_RegR1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_RegR1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_RegR2" type="array">
+      <obj_property name="ElementShortName">ID_EX_RegR2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_RegR2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_Imm" type="array">
+      <obj_property name="ElementShortName">ID_EX_Imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_IR30" type="logic">
+      <obj_property name="ElementShortName">ID_EX_IR30</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_IR30</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_Func3" type="array">
+      <obj_property name="ElementShortName">ID_EX_Func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_Rs1" type="array">
+      <obj_property name="ElementShortName">ID_EX_Rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_Rs2" type="array">
+      <obj_property name="ElementShortName">ID_EX_Rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_Rd" type="array">
+      <obj_property name="ElementShortName">ID_EX_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_shamt" type="array">
+      <obj_property name="ElementShortName">ID_EX_shamt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_shamt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_jal" type="logic">
+      <obj_property name="ElementShortName">ID_EX_jal</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_jal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_memRead" type="logic">
+      <obj_property name="ElementShortName">ID_EX_memRead</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_memRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_whatToReg" type="array">
+      <obj_property name="ElementShortName">ID_EX_whatToReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_whatToReg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_pcSig" type="array">
+      <obj_property name="ElementShortName">ID_EX_pcSig[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_pcSig[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_memWrite" type="logic">
+      <obj_property name="ElementShortName">ID_EX_memWrite</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_memWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_ALUSrc1" type="logic">
+      <obj_property name="ElementShortName">ID_EX_ALUSrc1</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ALUSrc1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_ALUSrc2" type="logic">
+      <obj_property name="ElementShortName">ID_EX_ALUSrc2</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ALUSrc2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_regWrite" type="logic">
+      <obj_property name="ElementShortName">ID_EX_regWrite</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_pcEnable" type="logic">
+      <obj_property name="ElementShortName">ID_EX_pcEnable</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_pcEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_ALUOP" type="array">
+      <obj_property name="ElementShortName">ID_EX_ALUOP[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ALUOP[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/addrOutput" type="array">
+      <obj_property name="ElementShortName">addrOutput[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addrOutput[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUInput1" type="array">
+      <obj_property name="ElementShortName">ALUInput1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUInput1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUInput2" type="array">
+      <obj_property name="ElementShortName">ALUInput2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUInput2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALURes" type="array">
+      <obj_property name="ElementShortName">ALURes[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALURes[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/pcSel" type="array">
+      <obj_property name="ElementShortName">pcSel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pcSel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/cf" type="logic">
+      <obj_property name="ElementShortName">cf</obj_property>
+      <obj_property name="ObjectShortName">cf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/zf" type="logic">
+      <obj_property name="ElementShortName">zf</obj_property>
+      <obj_property name="ObjectShortName">zf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/vf" type="logic">
+      <obj_property name="ElementShortName">vf</obj_property>
+      <obj_property name="ObjectShortName">vf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/sf" type="logic">
+      <obj_property name="ElementShortName">sf</obj_property>
+      <obj_property name="ObjectShortName">sf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUSel" type="array">
+      <obj_property name="ElementShortName">ALUSel[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSel[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/offsetPc" type="array">
+      <obj_property name="ElementShortName">offsetPc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">offsetPc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/EX_MEM_pcPlus4" type="array">
+      <obj_property name="ElementShortName">EX_MEM_pcPlus4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_pcPlus4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/EX_MEM_ALURes" type="array">
+      <obj_property name="ElementShortName">EX_MEM_ALURes[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ALURes[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/EX_MEM_whatToReg" type="array">
+      <obj_property name="ElementShortName">EX_MEM_whatToReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_whatToReg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/EX_MEM_regWrite" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_regWrite</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/EX_MEM_Func3" type="array">
+      <obj_property name="ElementShortName">EX_MEM_Func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/EX_MEM_Rd" type="array">
+      <obj_property name="ElementShortName">EX_MEM_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/EX_MEM_DataIn" type="array">
+      <obj_property name="ElementShortName">EX_MEM_DataIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_DataIn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/EX_MEM_memRead" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_memRead</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_memRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/EX_MEM_memWrite" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_memWrite</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_memWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/memReadData" type="array">
+      <obj_property name="ElementShortName">memReadData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memReadData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/MEM_WB_pcPlus4" type="array">
+      <obj_property name="ElementShortName">MEM_WB_pcPlus4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_pcPlus4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/MEM_WB_ALURes" type="array">
+      <obj_property name="ElementShortName">MEM_WB_ALURes[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_ALURes[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/MEM_WB_memReadData" type="array">
+      <obj_property name="ElementShortName">MEM_WB_memReadData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_memReadData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/MEM_WB_regWrite" type="logic">
+      <obj_property name="ElementShortName">MEM_WB_regWrite</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/MEM_WB_Rd" type="array">
+      <obj_property name="ElementShortName">MEM_WB_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/MEM_WB_whatToReg" type="array">
+      <obj_property name="ElementShortName">MEM_WB_whatToReg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_whatToReg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/writeData" type="array">
+      <obj_property name="ElementShortName">writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/fA" type="logic">
+      <obj_property name="ElementShortName">fA</obj_property>
+      <obj_property name="ObjectShortName">fA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/fB" type="logic">
+      <obj_property name="ElementShortName">fB</obj_property>
+      <obj_property name="ObjectShortName">fB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/outMuxFwdA" type="array">
+      <obj_property name="ElementShortName">outMuxFwdA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">outMuxFwdA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/outMuxFwdB" type="array">
+      <obj_property name="ElementShortName">outMuxFwdB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">outMuxFwdB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/NOP" type="array">
+      <obj_property name="ElementShortName">NOP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NOP[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/IR" type="array">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ID_EX_pcRst" type="logic">
+      <obj_property name="ElementShortName">ID_EX_pcRst</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_pcRst</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider88">
+      <obj_property name="label">RF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/RF/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/RF/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/RF/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/RF/ReadReg1" type="array">
+      <obj_property name="ElementShortName">ReadReg1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadReg1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/RF/ReadReg2" type="array">
+      <obj_property name="ElementShortName">ReadReg2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadReg2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/RF/WriteReg" type="array">
+      <obj_property name="ElementShortName">WriteReg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteReg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/RF/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/RF/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/RF/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/RF/data" type="array">
+      <obj_property name="ElementShortName">data[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/RF/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider129">
+      <obj_property name="label">Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/addr" type="array">
+      <obj_property name="ElementShortName">addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/func3" type="array">
+      <obj_property name="ElementShortName">func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/size" type="array">
+      <obj_property name="ElementShortName">size[1:0]</obj_property>
+      <obj_property name="ObjectShortName">size[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/s" type="logic">
+      <obj_property name="ElementShortName">s</obj_property>
+      <obj_property name="ObjectShortName">s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/mem" type="array">
+      <obj_property name="ElementShortName">mem[1023:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[1023:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/data_addr" type="array">
+      <obj_property name="ElementShortName">data_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">data_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/mem[515]" type="array">
+      <obj_property name="ElementShortName">[515][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[515][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/mem[514]" type="array">
+      <obj_property name="ElementShortName">[514][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[514][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/mem[513]" type="array">
+      <obj_property name="ElementShortName">[513][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[513][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/Mem/mem[512]" type="array">
+      <obj_property name="ElementShortName">[512][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[512][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1166">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/shamt" type="array">
+      <obj_property name="ElementShortName">shamt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">shamt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/ALUSel" type="array">
+      <obj_property name="ElementShortName">ALUSel[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSel[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/r" type="array">
+      <obj_property name="ElementShortName">r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/cf" type="logic">
+      <obj_property name="ElementShortName">cf</obj_property>
+      <obj_property name="ObjectShortName">cf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/zf" type="logic">
+      <obj_property name="ElementShortName">zf</obj_property>
+      <obj_property name="ObjectShortName">zf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/vf" type="logic">
+      <obj_property name="ElementShortName">vf</obj_property>
+      <obj_property name="ObjectShortName">vf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/sf" type="logic">
+      <obj_property name="ElementShortName">sf</obj_property>
+      <obj_property name="ObjectShortName">sf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/add" type="array">
+      <obj_property name="ElementShortName">add[31:0]</obj_property>
+      <obj_property name="ObjectShortName">add[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/op_b" type="array">
+      <obj_property name="ElementShortName">op_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/sh_i" type="array">
+      <obj_property name="ElementShortName">sh_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/sh_r" type="array">
+      <obj_property name="ElementShortName">sh_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sh_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/a_signed" type="array">
+      <obj_property name="ElementShortName">a_signed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a_signed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/mul" type="array">
+      <obj_property name="ElementShortName">mul[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mul[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rv32p_tb/put1/ALUMain/mul_s" type="array">
+      <obj_property name="ElementShortName">mul_s[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_s[63:0]</obj_property>
+   </wvobject>
+</wave_config>
