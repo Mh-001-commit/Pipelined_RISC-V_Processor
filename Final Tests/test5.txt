@@ -1,0 +1,9 @@
+{mem[3],mem[2],mem[1],mem[0]}     = 32'h00000013;  // addi x0,x0,0
+{mem[7],mem[6],mem[5],mem[4]}     = 32'h00500093;  // addi x1,x0,5 
+{mem[11],mem[10],mem[9],mem[8]}   = 32'h00600113;  // addi x2,x0,6    
+{mem[15],mem[14],mem[13],mem[12]} = 32'hffc00193;  // addi x3,x0,-4   
+{mem[19],mem[18],mem[17],mem[16]} = 32'h01e00213;  // addi x4,x0,30   
+{mem[23],mem[22],mem[21],mem[20]} = 32'h0220c2b3;  // div x5,x1,x2               
+{mem[27],mem[26],mem[25],mem[24]} = 32'h0241d333;  // divu x6,x3,x4                
+{mem[31],mem[30],mem[29],mem[28]} = 32'h0220e3b3;  // rem x7,x1,x2                
+{mem[35],mem[34],mem[33],mem[32]} = 32'h0241f433;  // remu x8,x3,x4             

@@ -1,0 +1,30 @@
+addi x0,x0,0
+addi x11, x0, 0
+addi x9, x0, 3
+for:
+bge x11, x9, done
+c.lw x8, x12, 0
+c.addi x8, 10
+c.sw x8, x12, 0
+c.addi x10, 4
+c.addi x11, 1
+beq x0, x0, for
+done:
+    addi x0, x0, 0 
+
+
+
+
+
+{mem[3],mem[2],mem[1],mem[0]}     = 32'h00000013;        
+ {mem[7],mem[6],mem[5],mem[4]}     = 32'h00000593;               
+ {mem[11],mem[10],mem[9],mem[8]}   = 32'h00300493;       
+ {mem[15],mem[14],mem[13],mem[12]} = 32'h0095d963;             
+ {mem[19],mem[18],mem[17],mem[16]} = 32'h0429_4200;      
+ {mem[23],mem[22],mem[21],mem[20]} = 32'h0511_c200;                                        
+ {mem[27],mem[26],mem[25],mem[24]} = 32'h09e3_0585;                                        
+ {mem[31],mem[30],mem[29],mem[28]} = 32'h0073_fe00;                                       
+ {mem[35],mem[34],mem[33],mem[32]} = 16'h0000; 
+ 
+ // data
+ {mem[3+`OFFSET], mem[2+`OFFSET], mem[1+`OFFSET], mem[0+`OFFSET]} = 32'h00000000; 

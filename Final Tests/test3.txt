@@ -1,0 +1,20 @@
+{mem[3],mem[2],mem[1],mem[0]}     = 32'h00000013; // addi x0, x0, 0                           
+{mem[7],mem[6],mem[5],mem[4]}     = 32'h00001537; // lui x10, 1                               
+{mem[11],mem[10],mem[9],mem[8]}   = 32'h00001517; // auipc x10, 1                             
+{mem[15],mem[14],mem[13],mem[12]} = 32'h00a58593; // addi x11, x11, 10                        
+{mem[19],mem[18],mem[17],mem[16]} = 32'h00258283; // lb x5, 2(x11)                            
+{mem[23],mem[22],mem[21],mem[20]} = 32'h0035c283; // lbu x5, 3(x11)                           
+{mem[27],mem[26],mem[25],mem[24]} = 32'h00059303; // lh x6, 0(x11)                            
+{mem[31],mem[30],mem[29],mem[28]} = 32'h0005d303; // lhu x6, 0(x11)                           
+{mem[35],mem[34],mem[33],mem[32]} = 32'h0005a383; // lw x7, 0(x11)                            
+{mem[39],mem[38],mem[37],mem[36]} = 32'h00758023; // sb x7, 0(x11)                            
+{mem[43],mem[42],mem[41],mem[40]} = 32'h00659023; // sh x6, 0(x11)                            
+{mem[47],mem[46],mem[45],mem[44]} = 32'h0055a023; // sw x5, 0(x11)                            
+{mem[51],mem[50],mem[49],mem[48]} = 32'h00c002ef; // jal x5, 12                               
+{mem[55],mem[54],mem[53],mem[52]} = 32'h00500033; // add x0, x0, x5                           
+{mem[59],mem[58],mem[57],mem[56]} = 32'h00000463; // beq x0, x0, Exit                         
+{mem[63],mem[62],mem[61],mem[60]} = 32'h000281e7; // L1: jalr x3, 0(x5)                       
+{mem[67],mem[66],mem[65],mem[64]} = 32'h0000000f; // Exit: fence                              
+                                                                                              
+// DATA                                                                                       
+{mem[13+`OFFSET], mem[12+`OFFSET], mem[11+`OFFSET], mem[10+`OFFSET]} = 32'habdcbacd;          
